@@ -59,16 +59,16 @@
     background-color: #e74c3c;
 }
 
-
-
-
 body {
     font-family: Roboto, sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     background-color: #525252;
     color: #555555;
 }
 
+.project-logo {
+    width: 100%;
+}
 
 /*--------------------------------------------Special Paddings/Margins/Text*/
 
@@ -77,6 +77,15 @@ h2,
 h3,
 h4 {
     margin: 0;
+}
+
+.project-heading,
+.project-logo {
+    padding-top: 25px;
+}
+
+.project-heading {
+    padding-bottom: 10px;
 }
 
 .uppercase {
@@ -118,10 +127,9 @@ header {
 }
 
 .logo {
-    background: url("../images/rosie.jpg");
+    background: url("../images/chris-profile-pic.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     min-height: 360px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
@@ -293,27 +301,6 @@ footer .cv-pdf i:hover {
     width: 60%;
 }
 
-/*--------------------------------------------Skills*/
-
-.progress {
-    position: relative;
-    height: 25px;
-}
-
-.progress-type {
-    position: absolute;
-    left: 0px;
-    font-weight: 400;
-    padding: 3px 30px 2px 10px;
-    color: #fafafa;
-    background-color: rgba(25, 25, 25, 0.2);
-}
-
-
-.progress-section {
-    margin: 40px 20px;
-}
-
 
 /*--------------------------------------------Work History*/
 
@@ -384,11 +371,6 @@ button[type="submit"] {
     margin-bottom: 20px;
     background-color: #e84610;
     color: #fafafa;
-}
-
-/*--------------------------------------------Map*/
-div#map {
-    min-height: 360px;
 }
 
 /*--------------------------------------------Media Queries*/
