@@ -366,13 +366,10 @@ footer .cv-pdf i:hover {
 
 
 .center-form {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 70%;
+    text-align: center;
 
 }.center-button {
-    margin: 0 auto;
-    max-width: 70%;
+    text-align: center;
 }
 
 
