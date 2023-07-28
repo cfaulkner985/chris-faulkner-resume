@@ -367,8 +367,9 @@ footer .cv-pdf i:hover {
 
 .center-form {
     text-align: center;
+}
 
-}.center-button {
+.center-button {
     text-align: center;
 }
 
@@ -391,8 +392,8 @@ button[type="submit"] {
     }
 
     .center-form {
-        padding-top: 30px;
-        min-height: 240px;
+        padding-top: 10px;
+        min-height: 10px;
         margin: 0 auto;
         max-width: 50%;
     }
